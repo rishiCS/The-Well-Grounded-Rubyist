@@ -1,0 +1,22 @@
+#Identifying objects uniquely with the object_id method
+
+obj= Object.new
+puts "The id of obj is #{obj.object_id}."
+str = "Strings are objects too, and this is a string!"
+puts "The id of the string object  str is #{str.Object_id}."
+puts "And the id of the integer 100 is #{100.object_id}."
+
+
+#Even though thee variables a and b are difficult, the object they both refer to the same.
+
+a=Object.new
+b=a
+puts "a's id is #{a.object_id} and b's id is #{b.object_id}."
+
+
+string_1 = "Hello"
+string_2 = "Hello"
+puts "String_1's id is #{string_1.object_id}"
+puts "String_2's id is #{string_2.object_id}"
+
+#even though these two strings contain the same text, they aren't, technically, the same object.

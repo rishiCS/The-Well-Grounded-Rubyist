@@ -1,0 +1,16 @@
+#Understanding Object Class
+
+obj= Obeject.new
+
+class C
+end
+
+class D < C
+end
+
+puts D.superclass
+puts D.superclass.superclass
+
+#Output:
+C
+Object

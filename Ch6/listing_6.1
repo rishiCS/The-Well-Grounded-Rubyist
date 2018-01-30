@@ -1,0 +1,14 @@
+# Interpreting user input with a case statement
+
+print "Exit the program?
+answer = gets.chomp
+case answer
+
+when "yes"
+  puts "good-bye!"
+  exit
+when "no"
+  puts "OK,we'll continue"
+ else
+   puts "That's an unknown answer-assuming you meant 'no'"
+ end
